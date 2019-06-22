@@ -1,3 +1,5 @@
-
-alert("carregado!");
+body{
+	font-size:10%
+	alert("carregado!");
+}
 
