@@ -1,6 +1,6 @@
 body{
-	font-size:10%
-	background: gray;
+	font-size: 10;
+	background: blue;
 	alert("carregado!");
 }
 
