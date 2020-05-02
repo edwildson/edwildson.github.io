@@ -3,3 +3,8 @@ body {
   margin: 0;
   background-color: #11141c;
 }
+
+h1 {
+  text-align: center;
+  color: aqua;
+}
