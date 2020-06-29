@@ -23,13 +23,148 @@
         height: 100.0%;
         left: 0.0%;
         top: 0.0%;
+        z-index:10;
         }
     </style>
+    <style>
+        <!--
+        /* 
+        Post-it note script- by javascriptkit.com
+        Visit JavaScript Kit (http://javascriptkit.com) for script
+        Credit must stay intact for use*/
+        
+        #postit {
+            position:fixed;
+            width:240px;
+            padding:5px;
+            background-color:lightyellow;
+            border:1px solid black;
+            visibility:hidden;
+            z-index:100;
+            cursor:hand;
+            cursor: pointer;
+            top:0%;
+            right:0%
+        }
+        -->
+        </style>
 </head>
 <body>    
     <div><h1>Mapeamento por bairros - Covid-19 - Juazeiro/BA</h1>
     <h4>Por <a  href="https://www.fb.com/edwildson">Edwildson Coelho Rodrigues</a></h4></div>
     <div class="folium-map" id="map_fb79a6ef996841f2a544c4d9bf69409f" ></div>
+    <div id="postit">
+            <div align="right"><b><a href="javascript:closeit()">[Fechar]</a></b></div>
+            
+            <!--INSIRA A MENSAGEM AQUI--> 
+            
+            <b>Top 5 bairros</b><br />
+            <ol>
+                <li>Santo Antônio: 46</li>
+                <li>Centro: 32</li>
+                <li>São Geraldo: 24</li>
+                <li>Alagadiço: 23</li>
+                <li>Piranga: 23</li>
+            </ol>
+            <!--Fim do Conteudo--> 
+            
+          </div>
+          <script>
+
+				//Post-it apenas uma vez por sessão do navegador? (0=nao, 1=sim)
+				//Especificar 0 fará com que a postagem seja exibida toda vez que a página for carregada
+				var once_per_browser=0
+
+				///No need to edit beyond here///
+
+				var ns4=document.layers
+				var ie4=document.all
+				var ns6=document.getElementById&&!document.all
+
+				if (ns4)
+				crossobj=document.layers.postit
+				else if (ie4||ns6)
+				crossobj=ns6? document.getElementById("postit") : document.all.postit
+
+
+				function closeit(){
+				if (ie4||ns6)
+				crossobj.style.visibility="hidden"
+				else if (ns4)
+				crossobj.visibility="hide"
+				}
+
+				function get_cookie(Name) {
+				  var search = Name + "="
+				  var returnvalue = "";
+				  if (document.cookie.length > 0) {
+				    offset = document.cookie.indexOf(search)
+				    if (offset != -1) { // if cookie exists
+				      offset += search.length
+				      // set index of beginning of value
+				      end = document.cookie.indexOf(";", offset);
+				      // set index of end of cookie value
+				      if (end == -1)
+				         end = document.cookie.length;
+				      returnvalue=unescape(document.cookie.substring(offset, end))
+				      }
+				   }
+				  return returnvalue;
+				}
+
+				function showornot(){
+				if (get_cookie('postdisplay')==''){
+				showit()
+				document.cookie="postdisplay=yes"
+				}
+				}
+
+				function showit(){
+				if (ie4||ns6)
+				crossobj.style.visibility="visible"
+				else if (ns4)
+				crossobj.visibility="show"
+				}
+
+				if (once_per_browser)
+				showornot()
+				else
+				showit()
+
+				</script> 
+          <script language="JavaScript1.2">
+
+				//drag drop function for ie4+ and NS6////
+				/////////////////////////////////
+
+				function drag_drop(e){
+				if (ie4&&dragapproved){
+				crossobj.style.left=tempx+event.clientX-offsetx+'px'
+				crossobj.style.top=tempy+event.clientY-offsety+'px'
+				return false
+				}
+				else if (ns6&&dragapproved){
+				crossobj.style.left=tempx+e.clientX-offsetx+'px'
+				crossobj.style.top=tempy+e.clientY-offsety+'px'
+				return false
+				}
+				}
+
+				function initializedrag(e){
+				if (ie4&&event.srcElement.id=="postit"||ns6&&e.target.id=="postit"){
+				offsetx=ie4? event.clientX : e.clientX
+				offsety=ie4? event.clientY : e.clientY
+
+				tempx=parseInt(crossobj.style.left)
+				tempy=parseInt(crossobj.style.top)
+
+				dragapproved=true
+				document.onmousemove=drag_drop
+				}
+				}
+				document.onmousedown=initializedrag
+				document.onmouseup=new Function("dragapproved=false")
+				</script> 
 </body>
 <script>    
     
