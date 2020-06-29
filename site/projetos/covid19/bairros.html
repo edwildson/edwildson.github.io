@@ -17,7 +17,7 @@
     
     <meta name="viewport" content="width=device-width,
         initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <style>#map_70553cc008b540f9acae60a2ad6a5787 {
+    <style>#map_a449be36327d4c429cb45d875f862a07 {
         position: relative;
         width: 100.0%;
         height: 100.0%;
@@ -50,7 +50,7 @@
 <body>    
     <div><h1>Mapeamento por bairros - Covid-19 - Juazeiro/BA</h1>
     <h4>Por <a  href="https://www.fb.com/edwildson">Edwildson Coelho Rodrigues</a></h4></div>
-    <div class="folium-map" id="map_70553cc008b540f9acae60a2ad6a5787" ></div>
+    <div class="folium-map" id="map_a449be36327d4c429cb45d875f862a07" ></div>
     <div id="postit">
             <div align="right"><b><a href="javascript:closeit()">[Fechar]</a></b></div>
             
@@ -170,8 +170,8 @@
         var bounds = null;
     
 
-    var map_70553cc008b540f9acae60a2ad6a5787 = L.map(
-        'map_70553cc008b540f9acae60a2ad6a5787', {
+    var map_a449be36327d4c429cb45d875f862a07 = L.map(
+        'map_a449be36327d4c429cb45d875f862a07', {
         center: [-9.439936, -40.497007],
         zoom: 13,
         maxBounds: bounds,
@@ -183,7 +183,7 @@
 
 
     
-    var tile_layer_28894636288441d5aebaf35658b382bc = L.tileLayer(
+    var tile_layer_e94f833c9c6f4dd282ef29768fafcac7 = L.tileLayer(
         'https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png',
         {
         "attribution": null,
@@ -195,17 +195,17 @@
         "opacity": 1,
         "subdomains": "abc",
         "tms": false
-}).addTo(map_70553cc008b540f9acae60a2ad6a5787);
+}).addTo(map_a449be36327d4c429cb45d875f862a07);
     
 
-            var circle_07fb884f1f08466d8784dadff46d57cf = L.circle(
+            var circle_e0c04b1f68cc4e338411a92ab5140510 = L.circle(
                 [-9.412832199999999, -40.5081104],
                 {
   "bubblingMouseEvents": true,
   "color": "rgb(165,0,38)",
   "dashArray": null,
   "dashOffset": null,
-  "fill": true,
+  "fill": "crimson",
   "fillColor": "rgb(165,0,38)",
   "fillOpacity": 0.6,
   "fillRule": "evenodd",
@@ -217,10 +217,10 @@
   "weight": 3
 }
                 )
-                .addTo(map_70553cc008b540f9acae60a2ad6a5787);
+                .addTo(map_a449be36327d4c429cb45d875f862a07);
             
     
-        circle_07fb884f1f08466d8784dadff46d57cf.bindTooltip(
+        circle_e0c04b1f68cc4e338411a92ab5140510.bindTooltip(
             `<div>`
             + `<li><bold>Bairro : Santo Antonio<li><bold>Casos : 46` + `</div>`,
             {"sticky": true}
@@ -228,14 +228,14 @@
         
     
 
-            var circle_a601d6c5f3f944ef9aae9cf472ad6921 = L.circle(
+            var circle_a7087b89e37b49838faf5d0d2b8f18b2 = L.circle(
                 [-9.413096600000001, -40.50262070000001],
                 {
   "bubblingMouseEvents": true,
   "color": "rgb(253,174,97)",
   "dashArray": null,
   "dashOffset": null,
-  "fill": true,
+  "fill": "crimson",
   "fillColor": "rgb(253,174,97)",
   "fillOpacity": 0.6,
   "fillRule": "evenodd",
@@ -247,10 +247,10 @@
   "weight": 3
 }
                 )
-                .addTo(map_70553cc008b540f9acae60a2ad6a5787);
+                .addTo(map_a449be36327d4c429cb45d875f862a07);
             
     
-        circle_a601d6c5f3f944ef9aae9cf472ad6921.bindTooltip(
+        circle_a7087b89e37b49838faf5d0d2b8f18b2.bindTooltip(
             `<div>`
             + `<li><bold>Bairro : Centro<li><bold>Casos : 32` + `</div>`,
             {"sticky": true}
@@ -258,14 +258,14 @@
         
     
 
-            var circle_3684e6a6440348d78d70de241fcf1d65 = L.circle(
+            var circle_ae2e75e3007d47ddb6bd3428dfc750f2 = L.circle(
                 [-9.423620300000001, -40.4791599],
                 {
   "bubblingMouseEvents": true,
   "color": "rgb(254,224,139)",
   "dashArray": null,
   "dashOffset": null,
-  "fill": true,
+  "fill": "crimson",
   "fillColor": "rgb(254,224,139)",
   "fillOpacity": 0.6,
   "fillRule": "evenodd",
@@ -277,10 +277,10 @@
   "weight": 3
 }
                 )
-                .addTo(map_70553cc008b540f9acae60a2ad6a5787);
+                .addTo(map_a449be36327d4c429cb45d875f862a07);
             
     
-        circle_3684e6a6440348d78d70de241fcf1d65.bindTooltip(
+        circle_ae2e75e3007d47ddb6bd3428dfc750f2.bindTooltip(
             `<div>`
             + `<li><bold>Bairro : Sao Geraldo<li><bold>Casos : 24` + `</div>`,
             {"sticky": true}
@@ -288,14 +288,14 @@
         
     
 
-            var circle_d3190047d9484e66b9c3b8899133188f = L.circle(
+            var circle_dd99567fe1a1403980c7877c29258006 = L.circle(
                 [-9.418370900000001, -40.504316700000004],
                 {
   "bubblingMouseEvents": true,
   "color": "rgb(255,255,191)",
   "dashArray": null,
   "dashOffset": null,
-  "fill": true,
+  "fill": "crimson",
   "fillColor": "rgb(255,255,191)",
   "fillOpacity": 0.6,
   "fillRule": "evenodd",
@@ -307,10 +307,10 @@
   "weight": 3
 }
                 )
-                .addTo(map_70553cc008b540f9acae60a2ad6a5787);
+                .addTo(map_a449be36327d4c429cb45d875f862a07);
             
     
-        circle_d3190047d9484e66b9c3b8899133188f.bindTooltip(
+        circle_dd99567fe1a1403980c7877c29258006.bindTooltip(
             `<div>`
             + `<li><bold>Bairro : Alagadico<li><bold>Casos : 23` + `</div>`,
             {"sticky": true}
@@ -318,14 +318,14 @@
         
     
 
-            var circle_c9bb30d942c4486896151ab32d03562d = L.circle(
+            var circle_bfdfae1e6637425a8c3eb7177ab03d4b = L.circle(
                 [-9.4315759, -40.5061234],
                 {
   "bubblingMouseEvents": true,
   "color": "rgb(255,255,191)",
   "dashArray": null,
   "dashOffset": null,
-  "fill": true,
+  "fill": "crimson",
   "fillColor": "rgb(255,255,191)",
   "fillOpacity": 0.6,
   "fillRule": "evenodd",
@@ -337,10 +337,10 @@
   "weight": 3
 }
                 )
-                .addTo(map_70553cc008b540f9acae60a2ad6a5787);
+                .addTo(map_a449be36327d4c429cb45d875f862a07);
             
     
-        circle_c9bb30d942c4486896151ab32d03562d.bindTooltip(
+        circle_bfdfae1e6637425a8c3eb7177ab03d4b.bindTooltip(
             `<div>`
             + `<li><bold>Bairro : Piranga<li><bold>Casos : 23` + `</div>`,
             {"sticky": true}
@@ -348,14 +348,14 @@
         
     
 
-            var circle_a59c7bd64f414867a1dde67b5a4e172f = L.circle(
+            var circle_fd99de6458504ae48721a25fa0b5b400 = L.circle(
                 [-9.4468496, -40.499119],
                 {
   "bubblingMouseEvents": true,
   "color": "rgb(255,255,191)",
   "dashArray": null,
   "dashOffset": null,
-  "fill": true,
+  "fill": "crimson",
   "fillColor": "rgb(255,255,191)",
   "fillOpacity": 0.6,
   "fillRule": "evenodd",
@@ -367,10 +367,10 @@
   "weight": 3
 }
                 )
-                .addTo(map_70553cc008b540f9acae60a2ad6a5787);
+                .addTo(map_a449be36327d4c429cb45d875f862a07);
             
     
-        circle_a59c7bd64f414867a1dde67b5a4e172f.bindTooltip(
+        circle_fd99de6458504ae48721a25fa0b5b400.bindTooltip(
             `<div>`
             + `<li><bold>Bairro : Alto da alianca<li><bold>Casos : 21` + `</div>`,
             {"sticky": true}
@@ -378,14 +378,14 @@
         
     
 
-            var circle_2b0e7c2e259f4607a0678faf12f685be = L.circle(
+            var circle_92f3c100c09b4d95b400a1799abbacf7 = L.circle(
                 [-9.448705499999999, -40.483107600000004],
                 {
   "bubblingMouseEvents": true,
   "color": "rgb(255,255,191)",
   "dashArray": null,
   "dashOffset": null,
-  "fill": true,
+  "fill": "crimson",
   "fillColor": "rgb(255,255,191)",
   "fillOpacity": 0.6,
   "fillRule": "evenodd",
@@ -397,10 +397,10 @@
   "weight": 3
 }
                 )
-                .addTo(map_70553cc008b540f9acae60a2ad6a5787);
+                .addTo(map_a449be36327d4c429cb45d875f862a07);
             
     
-        circle_2b0e7c2e259f4607a0678faf12f685be.bindTooltip(
+        circle_92f3c100c09b4d95b400a1799abbacf7.bindTooltip(
             `<div>`
             + `<li><bold>Bairro : Itaberaba<li><bold>Casos : 21` + `</div>`,
             {"sticky": true}
@@ -408,29 +408,29 @@
         
     
 
-            var circle_aff81a7bfe9243898b0cdf37f71d5362 = L.circle(
+            var circle_00d2a6ae1c114ddb9bd23ef4ca315ff8 = L.circle(
                 [-9.4285487, -40.51101620000001],
                 {
   "bubblingMouseEvents": true,
   "color": "rgb(217,239,139)",
   "dashArray": null,
   "dashOffset": null,
-  "fill": true,
+  "fill": "crimson",
   "fillColor": "rgb(217,239,139)",
   "fillOpacity": 0.6,
   "fillRule": "evenodd",
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 64.0,
+  "radius": 89.44271909999159,
   "stroke": true,
   "weight": 3
 }
                 )
-                .addTo(map_70553cc008b540f9acae60a2ad6a5787);
+                .addTo(map_a449be36327d4c429cb45d875f862a07);
             
     
-        circle_aff81a7bfe9243898b0cdf37f71d5362.bindTooltip(
+        circle_00d2a6ae1c114ddb9bd23ef4ca315ff8.bindTooltip(
             `<div>`
             + `<li><bold>Bairro : Jardim Florida<li><bold>Casos : 16` + `</div>`,
             {"sticky": true}
@@ -438,29 +438,29 @@
         
     
 
-            var circle_bfd1069d4e574d9e8c67c33def84a272 = L.circle(
+            var circle_ed7835fc64ed4f3894ca94d499e67f36 = L.circle(
                 [-9.439331300000001, -40.4908634],
                 {
   "bubblingMouseEvents": true,
   "color": "rgb(217,239,139)",
   "dashArray": null,
   "dashOffset": null,
-  "fill": true,
+  "fill": "crimson",
   "fillColor": "rgb(217,239,139)",
   "fillOpacity": 0.6,
   "fillRule": "evenodd",
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 70.09279563550022,
+  "radius": 89.44271909999159,
   "stroke": true,
   "weight": 3
 }
                 )
-                .addTo(map_70553cc008b540f9acae60a2ad6a5787);
+                .addTo(map_a449be36327d4c429cb45d875f862a07);
             
     
-        circle_bfd1069d4e574d9e8c67c33def84a272.bindTooltip(
+        circle_ed7835fc64ed4f3894ca94d499e67f36.bindTooltip(
             `<div>`
             + `<li><bold>Bairro : Dom Thomaz<li><bold>Casos : 17` + `</div>`,
             {"sticky": true}
@@ -468,29 +468,29 @@
         
     
 
-            var circle_c3ff62fe73f14a12887616119be1e10b = L.circle(
+            var circle_4cf6e415b5714082a913e834efa2314d = L.circle(
                 [-9.416898800000002, -40.49838020000001],
                 {
   "bubblingMouseEvents": true,
   "color": "rgb(217,239,139)",
   "dashArray": null,
   "dashOffset": null,
-  "fill": true,
+  "fill": "crimson",
   "fillColor": "rgb(217,239,139)",
   "fillOpacity": 0.6,
   "fillRule": "evenodd",
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 70.09279563550022,
+  "radius": 89.44271909999159,
   "stroke": true,
   "weight": 3
 }
                 )
-                .addTo(map_70553cc008b540f9acae60a2ad6a5787);
+                .addTo(map_a449be36327d4c429cb45d875f862a07);
             
     
-        circle_c3ff62fe73f14a12887616119be1e10b.bindTooltip(
+        circle_4cf6e415b5714082a913e834efa2314d.bindTooltip(
             `<div>`
             + `<li><bold>Bairro : Coreia<li><bold>Casos : 17` + `</div>`,
             {"sticky": true}
@@ -498,29 +498,29 @@
         
     
 
-            var circle_fd0f1932dc0f43faac45800f937ef256 = L.circle(
+            var circle_95b1e0d70279474cb647c56a628998b3 = L.circle(
                 [-9.422904800000001, -40.503896100000006],
                 {
   "bubblingMouseEvents": true,
   "color": "rgb(217,239,139)",
   "dashArray": null,
   "dashOffset": null,
-  "fill": true,
+  "fill": "crimson",
   "fillColor": "rgb(217,239,139)",
   "fillOpacity": 0.6,
   "fillRule": "evenodd",
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 58.09475019311125,
+  "radius": 89.44271909999159,
   "stroke": true,
   "weight": 3
 }
                 )
-                .addTo(map_70553cc008b540f9acae60a2ad6a5787);
+                .addTo(map_a449be36327d4c429cb45d875f862a07);
             
     
-        circle_fd0f1932dc0f43faac45800f937ef256.bindTooltip(
+        circle_95b1e0d70279474cb647c56a628998b3.bindTooltip(
             `<div>`
             + `<li><bold>Bairro : Alto da Maravilha<li><bold>Casos : 15` + `</div>`,
             {"sticky": true}
@@ -528,29 +528,29 @@
         
     
 
-            var circle_c9c258e81165470ba5b00cd2a45a3e9e = L.circle(
+            var circle_236364ef5875429ea5860bf138d838c9 = L.circle(
                 [-9.434493600000001, -40.474930799999996],
                 {
   "bubblingMouseEvents": true,
   "color": "rgb(217,239,139)",
   "dashArray": null,
   "dashOffset": null,
-  "fill": true,
+  "fill": "crimson",
   "fillColor": "rgb(217,239,139)",
   "fillOpacity": 0.6,
   "fillRule": "evenodd",
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 58.09475019311125,
+  "radius": 89.44271909999159,
   "stroke": true,
   "weight": 3
 }
                 )
-                .addTo(map_70553cc008b540f9acae60a2ad6a5787);
+                .addTo(map_a449be36327d4c429cb45d875f862a07);
             
     
-        circle_c9c258e81165470ba5b00cd2a45a3e9e.bindTooltip(
+        circle_236364ef5875429ea5860bf138d838c9.bindTooltip(
             `<div>`
             + `<li><bold>Bairro : Tabuleiro<li><bold>Casos : 15` + `</div>`,
             {"sticky": true}
@@ -558,29 +558,29 @@
         
     
 
-            var circle_6d19f012dca74ce0b9381af6d451060f = L.circle(
+            var circle_54e6f05eb4d84b6f8e2752ce8b659d77 = L.circle(
                 [-9.4229221, -40.5100694],
                 {
   "bubblingMouseEvents": true,
   "color": "rgb(217,239,139)",
   "dashArray": null,
   "dashOffset": null,
-  "fill": true,
+  "fill": "crimson",
   "fillColor": "rgb(217,239,139)",
   "fillOpacity": 0.6,
   "fillRule": "evenodd",
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 52.38320341483518,
+  "radius": 89.44271909999159,
   "stroke": true,
   "weight": 3
 }
                 )
-                .addTo(map_70553cc008b540f9acae60a2ad6a5787);
+                .addTo(map_a449be36327d4c429cb45d875f862a07);
             
     
-        circle_6d19f012dca74ce0b9381af6d451060f.bindTooltip(
+        circle_54e6f05eb4d84b6f8e2752ce8b659d77.bindTooltip(
             `<div>`
             + `<li><bold>Bairro : Jardim Vitoria<li><bold>Casos : 14` + `</div>`,
             {"sticky": true}
@@ -588,29 +588,29 @@
         
     
 
-            var circle_9de1754aab0741bca49203a55b6cfe72 = L.circle(
+            var circle_088563c544ae4e26af1439a5b2f41441 = L.circle(
                 [-9.470952400000002, -40.4990388],
                 {
   "bubblingMouseEvents": true,
   "color": "rgb(217,239,139)",
   "dashArray": null,
   "dashOffset": null,
-  "fill": true,
+  "fill": "crimson",
   "fillColor": "rgb(217,239,139)",
   "fillOpacity": 0.6,
   "fillRule": "evenodd",
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 52.38320341483518,
+  "radius": 89.44271909999159,
   "stroke": true,
   "weight": 3
 }
                 )
-                .addTo(map_70553cc008b540f9acae60a2ad6a5787);
+                .addTo(map_a449be36327d4c429cb45d875f862a07);
             
     
-        circle_9de1754aab0741bca49203a55b6cfe72.bindTooltip(
+        circle_088563c544ae4e26af1439a5b2f41441.bindTooltip(
             `<div>`
             + `<li><bold>Bairro : Joao Paulo II<li><bold>Casos : 14` + `</div>`,
             {"sticky": true}
@@ -618,29 +618,29 @@
         
     
 
-            var circle_3b9e43ad73fb408ba55cbda2322a6845 = L.circle(
+            var circle_216bebb9c43a46bbbff3fe2dfa737c16 = L.circle(
                 [-9.427858300000002, -40.5246441],
                 {
   "bubblingMouseEvents": true,
   "color": "rgb(166,217,106)",
   "dashArray": null,
   "dashOffset": null,
-  "fill": true,
+  "fill": "crimson",
   "fillColor": "rgb(166,217,106)",
   "fillOpacity": 0.6,
   "fillRule": "evenodd",
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 46.87216658103186,
+  "radius": 89.44271909999159,
   "stroke": true,
   "weight": 3
 }
                 )
-                .addTo(map_70553cc008b540f9acae60a2ad6a5787);
+                .addTo(map_a449be36327d4c429cb45d875f862a07);
             
     
-        circle_3b9e43ad73fb408ba55cbda2322a6845.bindTooltip(
+        circle_216bebb9c43a46bbbff3fe2dfa737c16.bindTooltip(
             `<div>`
             + `<li><bold>Bairro : Palmares<li><bold>Casos : 13` + `</div>`,
             {"sticky": true}
@@ -648,29 +648,29 @@
         
     
 
-            var circle_730bb33f1c5a455794ddee887dd56c7e = L.circle(
+            var circle_37359ac969ed4f7fa7c59fc2a4b92f26 = L.circle(
                 [-9.453889900000002, -40.512857360000005],
                 {
   "bubblingMouseEvents": true,
   "color": "rgb(166,217,106)",
   "dashArray": null,
   "dashOffset": null,
-  "fill": true,
+  "fill": "crimson",
   "fillColor": "rgb(166,217,106)",
   "fillOpacity": 0.6,
   "fillRule": "evenodd",
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 46.87216658103186,
+  "radius": 89.44271909999159,
   "stroke": true,
   "weight": 3
 }
                 )
-                .addTo(map_70553cc008b540f9acae60a2ad6a5787);
+                .addTo(map_a449be36327d4c429cb45d875f862a07);
             
     
-        circle_730bb33f1c5a455794ddee887dd56c7e.bindTooltip(
+        circle_37359ac969ed4f7fa7c59fc2a4b92f26.bindTooltip(
             `<div>`
             + `<li><bold>Bairro : Dom Jose Rodrigues<li><bold>Casos : 13` + `</div>`,
             {"sticky": true}
@@ -678,29 +678,29 @@
         
     
 
-            var circle_8427ec007562482d86d5e0cfdc907d79 = L.circle(
+            var circle_5e1fdb74bbe0442f9cc365e8a5b41994 = L.circle(
                 [-9.4363581, -40.5210345],
                 {
   "bubblingMouseEvents": true,
   "color": "rgb(166,217,106)",
   "dashArray": null,
   "dashOffset": null,
-  "fill": true,
+  "fill": "crimson",
   "fillColor": "rgb(166,217,106)",
   "fillOpacity": 0.6,
   "fillRule": "evenodd",
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 46.87216658103186,
+  "radius": 89.44271909999159,
   "stroke": true,
   "weight": 3
 }
                 )
-                .addTo(map_70553cc008b540f9acae60a2ad6a5787);
+                .addTo(map_a449be36327d4c429cb45d875f862a07);
             
     
-        circle_8427ec007562482d86d5e0cfdc907d79.bindTooltip(
+        circle_5e1fdb74bbe0442f9cc365e8a5b41994.bindTooltip(
             `<div>`
             + `<li><bold>Bairro : Argemiro<li><bold>Casos : 13` + `</div>`,
             {"sticky": true}
@@ -708,29 +708,29 @@
         
     
 
-            var circle_f7e5a1b9c79f476fb71aa8b3e5efbdc1 = L.circle(
+            var circle_1f71c96a255642e6a2406b5e1f78c3ee = L.circle(
                 [-9.416002, -40.5147693],
                 {
   "bubblingMouseEvents": true,
   "color": "rgb(166,217,106)",
   "dashArray": null,
   "dashOffset": null,
-  "fill": true,
+  "fill": "crimson",
   "fillColor": "rgb(166,217,106)",
   "fillOpacity": 0.6,
   "fillRule": "evenodd",
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 46.87216658103186,
+  "radius": 89.44271909999159,
   "stroke": true,
   "weight": 3
 }
                 )
-                .addTo(map_70553cc008b540f9acae60a2ad6a5787);
+                .addTo(map_a449be36327d4c429cb45d875f862a07);
             
     
-        circle_f7e5a1b9c79f476fb71aa8b3e5efbdc1.bindTooltip(
+        circle_1f71c96a255642e6a2406b5e1f78c3ee.bindTooltip(
             `<div>`
             + `<li><bold>Bairro : Maringa<li><bold>Casos : 13` + `</div>`,
             {"sticky": true}
@@ -738,29 +738,29 @@
         
     
 
-            var circle_eea0648c736144e689743af79c1f4df4 = L.circle(
+            var circle_37c73e66b9f84fd292db03f7d9958533 = L.circle(
                 [-9.4775933, -40.491634000000005],
                 {
   "bubblingMouseEvents": true,
   "color": "rgb(166,217,106)",
   "dashArray": null,
   "dashOffset": null,
-  "fill": true,
+  "fill": "crimson",
   "fillColor": "rgb(166,217,106)",
   "fillOpacity": 0.6,
   "fillRule": "evenodd",
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 41.569219381653056,
+  "radius": 89.44271909999159,
   "stroke": true,
   "weight": 3
 }
                 )
-                .addTo(map_70553cc008b540f9acae60a2ad6a5787);
+                .addTo(map_a449be36327d4c429cb45d875f862a07);
             
     
-        circle_eea0648c736144e689743af79c1f4df4.bindTooltip(
+        circle_37c73e66b9f84fd292db03f7d9958533.bindTooltip(
             `<div>`
             + `<li><bold>Bairro : Parque Residencial<li><bold>Casos : 12` + `</div>`,
             {"sticky": true}
@@ -768,29 +768,29 @@
         
     
 
-            var circle_287a4ffad72e4d5da711253bf5a984e6 = L.circle(
+            var circle_2fda066fccd74ac39fcb194dd264e03a = L.circle(
                 [-9.424352800000001, -40.4921652],
                 {
   "bubblingMouseEvents": true,
   "color": "rgb(166,217,106)",
   "dashArray": null,
   "dashOffset": null,
-  "fill": true,
+  "fill": "crimson",
   "fillColor": "rgb(166,217,106)",
   "fillOpacity": 0.6,
   "fillRule": "evenodd",
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 31.622776601683793,
+  "radius": 89.44271909999159,
   "stroke": true,
   "weight": 3
 }
                 )
-                .addTo(map_70553cc008b540f9acae60a2ad6a5787);
+                .addTo(map_a449be36327d4c429cb45d875f862a07);
             
     
-        circle_287a4ffad72e4d5da711253bf5a984e6.bindTooltip(
+        circle_2fda066fccd74ac39fcb194dd264e03a.bindTooltip(
             `<div>`
             + `<li><bold>Bairro : Novo Encontro<li><bold>Casos : 10` + `</div>`,
             {"sticky": true}
@@ -798,29 +798,29 @@
         
     
 
-            var circle_f39d958a0e844e8a86dfdae170cb7206 = L.circle(
+            var circle_83b7f6ffddba4dae83aba6e88c32bdd7 = L.circle(
                 [-9.450031599999999, -40.4951],
                 {
   "bubblingMouseEvents": true,
   "color": "rgb(166,217,106)",
   "dashArray": null,
   "dashOffset": null,
-  "fill": true,
+  "fill": "crimson",
   "fillColor": "rgb(166,217,106)",
   "fillOpacity": 0.6,
   "fillRule": "evenodd",
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 31.622776601683793,
+  "radius": 89.44271909999159,
   "stroke": true,
   "weight": 3
 }
                 )
-                .addTo(map_70553cc008b540f9acae60a2ad6a5787);
+                .addTo(map_a449be36327d4c429cb45d875f862a07);
             
     
-        circle_f39d958a0e844e8a86dfdae170cb7206.bindTooltip(
+        circle_83b7f6ffddba4dae83aba6e88c32bdd7.bindTooltip(
             `<div>`
             + `<li><bold>Bairro : Vila Tirandentes<li><bold>Casos : 10` + `</div>`,
             {"sticky": true}
@@ -828,29 +828,29 @@
         
     
 
-            var circle_93740ad90163428fb54421ad383a0e94 = L.circle(
+            var circle_5c646f10cad24243bf1c4533e56909ef = L.circle(
                 [-9.4408375, -40.5173753],
                 {
   "bubblingMouseEvents": true,
   "color": "rgb(102,189,99)",
   "dashArray": null,
   "dashOffset": null,
-  "fill": true,
+  "fill": "crimson",
   "fillColor": "rgb(102,189,99)",
   "fillOpacity": 0.6,
   "fillRule": "evenodd",
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 27.0,
+  "radius": 89.44271909999159,
   "stroke": true,
   "weight": 3
 }
                 )
-                .addTo(map_70553cc008b540f9acae60a2ad6a5787);
+                .addTo(map_a449be36327d4c429cb45d875f862a07);
             
     
-        circle_93740ad90163428fb54421ad383a0e94.bindTooltip(
+        circle_5c646f10cad24243bf1c4533e56909ef.bindTooltip(
             `<div>`
             + `<li><bold>Bairro : Nova Esperanca<li><bold>Casos : 9` + `</div>`,
             {"sticky": true}
@@ -858,29 +858,29 @@
         
     
 
-            var circle_3e2bd17633194543ad473f61de08ef40 = L.circle(
+            var circle_5a8a9d33709d4d09a5b00a30bfb9dbea = L.circle(
                 [-9.4244821, -40.5285651],
                 {
   "bubblingMouseEvents": true,
   "color": "rgb(102,189,99)",
   "dashArray": null,
   "dashOffset": null,
-  "fill": true,
+  "fill": "crimson",
   "fillColor": "rgb(102,189,99)",
   "fillOpacity": 0.6,
   "fillRule": "evenodd",
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 27.0,
+  "radius": 89.44271909999159,
   "stroke": true,
   "weight": 3
 }
                 )
-                .addTo(map_70553cc008b540f9acae60a2ad6a5787);
+                .addTo(map_a449be36327d4c429cb45d875f862a07);
             
     
-        circle_3e2bd17633194543ad473f61de08ef40.bindTooltip(
+        circle_5a8a9d33709d4d09a5b00a30bfb9dbea.bindTooltip(
             `<div>`
             + `<li><bold>Bairro : Pedra do Lorde<li><bold>Casos : 9` + `</div>`,
             {"sticky": true}
@@ -888,29 +888,29 @@
         
     
 
-            var circle_49abdea57b7e47848cfbe8ef31b50664 = L.circle(
+            var circle_d835720432a64b7d94a317b648440c91 = L.circle(
                 [-9.4301467, -40.4955518],
                 {
   "bubblingMouseEvents": true,
   "color": "rgb(102,189,99)",
   "dashArray": null,
   "dashOffset": null,
-  "fill": true,
+  "fill": "crimson",
   "fillColor": "rgb(102,189,99)",
   "fillOpacity": 0.6,
   "fillRule": "evenodd",
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 27.0,
+  "radius": 89.44271909999159,
   "stroke": true,
   "weight": 3
 }
                 )
-                .addTo(map_70553cc008b540f9acae60a2ad6a5787);
+                .addTo(map_a449be36327d4c429cb45d875f862a07);
             
     
-        circle_49abdea57b7e47848cfbe8ef31b50664.bindTooltip(
+        circle_d835720432a64b7d94a317b648440c91.bindTooltip(
             `<div>`
             + `<li><bold>Bairro : Alto do Cruzeiro<li><bold>Casos : 9` + `</div>`,
             {"sticky": true}
@@ -918,29 +918,29 @@
         
     
 
-            var circle_8da73a74c9cb417a9ca7c9263ddfa431 = L.circle(
+            var circle_f8ea03b2a97b4ccf8e4ad0db5b0d06ce = L.circle(
                 [-9.4311277, -40.4888739],
                 {
   "bubblingMouseEvents": true,
   "color": "rgb(102,189,99)",
   "dashArray": null,
   "dashOffset": null,
-  "fill": true,
+  "fill": "crimson",
   "fillColor": "rgb(102,189,99)",
   "fillOpacity": 0.6,
   "fillRule": "evenodd",
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 22.627416997969522,
+  "radius": 89.44271909999159,
   "stroke": true,
   "weight": 3
 }
                 )
-                .addTo(map_70553cc008b540f9acae60a2ad6a5787);
+                .addTo(map_a449be36327d4c429cb45d875f862a07);
             
     
-        circle_8da73a74c9cb417a9ca7c9263ddfa431.bindTooltip(
+        circle_f8ea03b2a97b4ccf8e4ad0db5b0d06ce.bindTooltip(
             `<div>`
             + `<li><bold>Bairro : Monte Castelo<li><bold>Casos : 8` + `</div>`,
             {"sticky": true}
@@ -948,29 +948,29 @@
         
     
 
-            var circle_90f502d600e447c49da30ccfd3e418ab = L.circle(
+            var circle_88c5b507b83a40b4bd437ca7424554dc = L.circle(
                 [-9.4745467, -40.4846402],
                 {
   "bubblingMouseEvents": true,
   "color": "rgb(102,189,99)",
   "dashArray": null,
   "dashOffset": null,
-  "fill": true,
+  "fill": "crimson",
   "fillColor": "rgb(102,189,99)",
   "fillOpacity": 0.6,
   "fillRule": "evenodd",
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 18.520259177452136,
+  "radius": 89.44271909999159,
   "stroke": true,
   "weight": 3
 }
                 )
-                .addTo(map_70553cc008b540f9acae60a2ad6a5787);
+                .addTo(map_a449be36327d4c429cb45d875f862a07);
             
     
-        circle_90f502d600e447c49da30ccfd3e418ab.bindTooltip(
+        circle_88c5b507b83a40b4bd437ca7424554dc.bindTooltip(
             `<div>`
             + `<li><bold>Bairro : Res Pr Rodeadouro<li><bold>Casos : 7` + `</div>`,
             {"sticky": true}
@@ -978,29 +978,29 @@
         
     
 
-            var circle_11388e88138c4a1cba71ba3477ddc14f = L.circle(
+            var circle_a961001427d640e1a90f92212cc684bc = L.circle(
                 [-9.420036300000001, -40.49510720000001],
                 {
   "bubblingMouseEvents": true,
   "color": "rgb(102,189,99)",
   "dashArray": null,
   "dashOffset": null,
-  "fill": true,
+  "fill": "crimson",
   "fillColor": "rgb(102,189,99)",
   "fillOpacity": 0.6,
   "fillRule": "evenodd",
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 18.520259177452136,
+  "radius": 89.44271909999159,
   "stroke": true,
   "weight": 3
 }
                 )
-                .addTo(map_70553cc008b540f9acae60a2ad6a5787);
+                .addTo(map_a449be36327d4c429cb45d875f862a07);
             
     
-        circle_11388e88138c4a1cba71ba3477ddc14f.bindTooltip(
+        circle_a961001427d640e1a90f92212cc684bc.bindTooltip(
             `<div>`
             + `<li><bold>Bairro : Centenario<li><bold>Casos : 7` + `</div>`,
             {"sticky": true}
@@ -1008,29 +1008,29 @@
         
     
 
-            var circle_fc05529a7cea468189fda11be05c4120 = L.circle(
+            var circle_074bfcda76624a3b9399c87e25045325 = L.circle(
                 [-9.4544734, -40.507690600000004],
                 {
   "bubblingMouseEvents": true,
   "color": "rgb(102,189,99)",
   "dashArray": null,
   "dashOffset": null,
-  "fill": true,
+  "fill": "crimson",
   "fillColor": "rgb(102,189,99)",
   "fillOpacity": 0.6,
   "fillRule": "evenodd",
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 14.696938456699069,
+  "radius": 89.44271909999159,
   "stroke": true,
   "weight": 3
 }
                 )
-                .addTo(map_70553cc008b540f9acae60a2ad6a5787);
+                .addTo(map_a449be36327d4c429cb45d875f862a07);
             
     
-        circle_fc05529a7cea468189fda11be05c4120.bindTooltip(
+        circle_074bfcda76624a3b9399c87e25045325.bindTooltip(
             `<div>`
             + `<li><bold>Bairro : Pedro Raimundo<li><bold>Casos : 6` + `</div>`,
             {"sticky": true}
@@ -1038,29 +1038,29 @@
         
     
 
-            var circle_b4f3b27b53514fdab0e2d723b4c9b1a0 = L.circle(
+            var circle_ebe2c107ae554910a3bb8fd8047fab49 = L.circle(
                 [-9.4537606, -40.41624910000001],
                 {
   "bubblingMouseEvents": true,
   "color": "rgb(102,189,99)",
   "dashArray": null,
   "dashOffset": null,
-  "fill": true,
+  "fill": "crimson",
   "fillColor": "rgb(102,189,99)",
   "fillOpacity": 0.6,
   "fillRule": "evenodd",
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 14.696938456699069,
+  "radius": 89.44271909999159,
   "stroke": true,
   "weight": 3
 }
                 )
-                .addTo(map_70553cc008b540f9acae60a2ad6a5787);
+                .addTo(map_a449be36327d4c429cb45d875f862a07);
             
     
-        circle_b4f3b27b53514fdab0e2d723b4c9b1a0.bindTooltip(
+        circle_ebe2c107ae554910a3bb8fd8047fab49.bindTooltip(
             `<div>`
             + `<li><bold>Bairro : Jardim Primavera<li><bold>Casos : 6` + `</div>`,
             {"sticky": true}
@@ -1068,29 +1068,29 @@
         
     
 
-            var circle_0cd6a77951294bddb9e65ba916fd0e3b = L.circle(
+            var circle_5ad73a6b256e49259dbdded1f8159b40 = L.circle(
                 [-9.4342213, -40.49489560000001],
                 {
   "bubblingMouseEvents": true,
   "color": "rgb(102,189,99)",
   "dashArray": null,
   "dashOffset": null,
-  "fill": true,
+  "fill": "crimson",
   "fillColor": "rgb(102,189,99)",
   "fillOpacity": 0.6,
   "fillRule": "evenodd",
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 14.696938456699069,
+  "radius": 89.44271909999159,
   "stroke": true,
   "weight": 3
 }
                 )
-                .addTo(map_70553cc008b540f9acae60a2ad6a5787);
+                .addTo(map_a449be36327d4c429cb45d875f862a07);
             
     
-        circle_0cd6a77951294bddb9e65ba916fd0e3b.bindTooltip(
+        circle_5ad73a6b256e49259dbdded1f8159b40.bindTooltip(
             `<div>`
             + `<li><bold>Bairro : Alto do Alencar<li><bold>Casos : 6` + `</div>`,
             {"sticky": true}
@@ -1098,29 +1098,29 @@
         
     
 
-            var circle_bf156b452f334d5f969a29ff70237c69 = L.circle(
+            var circle_f4cd05b0c13c4d88a0c480825c35ccb9 = L.circle(
                 [-9.415242300000001, -40.4896797],
                 {
   "bubblingMouseEvents": true,
   "color": "rgb(102,189,99)",
   "dashArray": null,
   "dashOffset": null,
-  "fill": true,
+  "fill": "crimson",
   "fillColor": "rgb(102,189,99)",
   "fillOpacity": 0.6,
   "fillRule": "evenodd",
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 14.696938456699069,
+  "radius": 89.44271909999159,
   "stroke": true,
   "weight": 3
 }
                 )
-                .addTo(map_70553cc008b540f9acae60a2ad6a5787);
+                .addTo(map_a449be36327d4c429cb45d875f862a07);
             
     
-        circle_bf156b452f334d5f969a29ff70237c69.bindTooltip(
+        circle_f4cd05b0c13c4d88a0c480825c35ccb9.bindTooltip(
             `<div>`
             + `<li><bold>Bairro : Cajueiro<li><bold>Casos : 6` + `</div>`,
             {"sticky": true}
@@ -1128,29 +1128,29 @@
         
     
 
-            var circle_b54c66ea852e4f30bc631b305e9d3aa3 = L.circle(
+            var circle_30b95446e89a45808aca37e2b3d42c37 = L.circle(
                 [-9.437221300000001, -40.4938956],
                 {
   "bubblingMouseEvents": true,
   "color": "rgb(102,189,99)",
   "dashArray": null,
   "dashOffset": null,
-  "fill": true,
+  "fill": "crimson",
   "fillColor": "rgb(102,189,99)",
   "fillOpacity": 0.6,
   "fillRule": "evenodd",
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 14.696938456699069,
+  "radius": 89.44271909999159,
   "stroke": true,
   "weight": 3
 }
                 )
-                .addTo(map_70553cc008b540f9acae60a2ad6a5787);
+                .addTo(map_a449be36327d4c429cb45d875f862a07);
             
     
-        circle_b54c66ea852e4f30bc631b305e9d3aa3.bindTooltip(
+        circle_30b95446e89a45808aca37e2b3d42c37.bindTooltip(
             `<div>`
             + `<li><bold>Bairro : Castelo Branco<li><bold>Casos : 6` + `</div>`,
             {"sticky": true}
@@ -1158,29 +1158,29 @@
         
     
 
-            var circle_6b37794d40f4412ea8d6b0f957e76a74 = L.circle(
+            var circle_ba976d9d20c74061bdccc3f0dacfd0dd = L.circle(
                 [-9.415546, -40.5203834],
                 {
   "bubblingMouseEvents": true,
   "color": "rgb(102,189,99)",
   "dashArray": null,
   "dashOffset": null,
-  "fill": true,
+  "fill": "crimson",
   "fillColor": "rgb(102,189,99)",
   "fillOpacity": 0.6,
   "fillRule": "evenodd",
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 14.696938456699069,
+  "radius": 89.44271909999159,
   "stroke": true,
   "weight": 3
 }
                 )
-                .addTo(map_70553cc008b540f9acae60a2ad6a5787);
+                .addTo(map_a449be36327d4c429cb45d875f862a07);
             
     
-        circle_6b37794d40f4412ea8d6b0f957e76a74.bindTooltip(
+        circle_ba976d9d20c74061bdccc3f0dacfd0dd.bindTooltip(
             `<div>`
             + `<li><bold>Bairro : Country Club<li><bold>Casos : 6` + `</div>`,
             {"sticky": true}
@@ -1188,29 +1188,29 @@
         
     
 
-            var circle_f0a9bd56e09e4c41b9da8958d1330d3e = L.circle(
+            var circle_678cf8fe0a6e4278b349c197c3136fc1 = L.circle(
                 [-9.420717, -40.513128300000005],
                 {
   "bubblingMouseEvents": true,
   "color": "rgb(102,189,99)",
   "dashArray": null,
   "dashOffset": null,
-  "fill": true,
+  "fill": "crimson",
   "fillColor": "rgb(102,189,99)",
   "fillOpacity": 0.6,
   "fillRule": "evenodd",
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 14.696938456699069,
+  "radius": 89.44271909999159,
   "stroke": true,
   "weight": 3
 }
                 )
-                .addTo(map_70553cc008b540f9acae60a2ad6a5787);
+                .addTo(map_a449be36327d4c429cb45d875f862a07);
             
     
-        circle_f0a9bd56e09e4c41b9da8958d1330d3e.bindTooltip(
+        circle_678cf8fe0a6e4278b349c197c3136fc1.bindTooltip(
             `<div>`
             + `<li><bold>Bairro : Penha<li><bold>Casos : 6` + `</div>`,
             {"sticky": true}
@@ -1218,29 +1218,29 @@
         
     
 
-            var circle_1b1e0871b48844b3a43b2e2a33955b2e = L.circle(
+            var circle_29a73bc6cf9b4580930a5b418637c006 = L.circle(
                 [-9.4235232, -40.498072300000004],
                 {
   "bubblingMouseEvents": true,
   "color": "rgb(102,189,99)",
   "dashArray": null,
   "dashOffset": null,
-  "fill": true,
+  "fill": "crimson",
   "fillColor": "rgb(102,189,99)",
   "fillOpacity": 0.6,
   "fillRule": "evenodd",
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 11.180339887498949,
+  "radius": 89.44271909999159,
   "stroke": true,
   "weight": 3
 }
                 )
-                .addTo(map_70553cc008b540f9acae60a2ad6a5787);
+                .addTo(map_a449be36327d4c429cb45d875f862a07);
             
     
-        circle_1b1e0871b48844b3a43b2e2a33955b2e.bindTooltip(
+        circle_29a73bc6cf9b4580930a5b418637c006.bindTooltip(
             `<div>`
             + `<li><bold>Bairro : Lomanto Junior<li><bold>Casos : 5` + `</div>`,
             {"sticky": true}
@@ -1248,29 +1248,29 @@
         
     
 
-            var circle_487c7c567f9241cf8c827f8fafecc7c6 = L.circle(
+            var circle_12dcac958e92484a82144d6e4175ae61 = L.circle(
                 [-9.461027099999999, -40.5348374],
                 {
   "bubblingMouseEvents": true,
   "color": "rgb(102,189,99)",
   "dashArray": null,
   "dashOffset": null,
-  "fill": true,
+  "fill": "crimson",
   "fillColor": "rgb(102,189,99)",
   "fillOpacity": 0.6,
   "fillRule": "evenodd",
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 11.180339887498949,
+  "radius": 89.44271909999159,
   "stroke": true,
   "weight": 3
 }
                 )
-                .addTo(map_70553cc008b540f9acae60a2ad6a5787);
+                .addTo(map_a449be36327d4c429cb45d875f862a07);
             
     
-        circle_487c7c567f9241cf8c827f8fafecc7c6.bindTooltip(
+        circle_12dcac958e92484a82144d6e4175ae61.bindTooltip(
             `<div>`
             + `<li><bold>Bairro : Res Dr Humberto<li><bold>Casos : 5` + `</div>`,
             {"sticky": true}
@@ -1278,29 +1278,29 @@
         
     
 
-            var circle_aeb41e36e8324be687706cc225c0c11a = L.circle(
+            var circle_f326f4bf5f8748c9814c74b4c04642c7 = L.circle(
                 [-9.4438276, -40.4886466],
                 {
   "bubblingMouseEvents": true,
   "color": "rgb(102,189,99)",
   "dashArray": null,
   "dashOffset": null,
-  "fill": true,
+  "fill": "crimson",
   "fillColor": "rgb(102,189,99)",
   "fillOpacity": 0.6,
   "fillRule": "evenodd",
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 11.180339887498949,
+  "radius": 89.44271909999159,
   "stroke": true,
   "weight": 3
 }
                 )
-                .addTo(map_70553cc008b540f9acae60a2ad6a5787);
+                .addTo(map_a449be36327d4c429cb45d875f862a07);
             
     
-        circle_aeb41e36e8324be687706cc225c0c11a.bindTooltip(
+        circle_f326f4bf5f8748c9814c74b4c04642c7.bindTooltip(
             `<div>`
             + `<li><bold>Bairro : Tancredo Neves<li><bold>Casos : 5` + `</div>`,
             {"sticky": true}
@@ -1308,29 +1308,29 @@
         
     
 
-            var circle_f50a2f2274f44662ad6cfa7877128311 = L.circle(
+            var circle_d0eb4bc218a443a1abce352274255fdd = L.circle(
                 [-9.4307242, -40.5000258],
                 {
   "bubblingMouseEvents": true,
   "color": "rgb(26,152,80)",
   "dashArray": null,
   "dashOffset": null,
-  "fill": true,
+  "fill": "crimson",
   "fillColor": "rgb(26,152,80)",
   "fillOpacity": 0.6,
   "fillRule": "evenodd",
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 8.0,
+  "radius": 89.44271909999159,
   "stroke": true,
   "weight": 3
 }
                 )
-                .addTo(map_70553cc008b540f9acae60a2ad6a5787);
+                .addTo(map_a449be36327d4c429cb45d875f862a07);
             
     
-        circle_f50a2f2274f44662ad6cfa7877128311.bindTooltip(
+        circle_d0eb4bc218a443a1abce352274255fdd.bindTooltip(
             `<div>`
             + `<li><bold>Bairro : Joao XXIII<li><bold>Casos : 4` + `</div>`,
             {"sticky": true}
@@ -1338,29 +1338,29 @@
         
     
 
-            var circle_f6130527e4ee48fc8105533736576914 = L.circle(
+            var circle_11756b2d08c846639c5f0685e4f94f5f = L.circle(
                 [-9.436185000000002, -40.50948920000001],
                 {
   "bubblingMouseEvents": true,
   "color": "rgb(26,152,80)",
   "dashArray": null,
   "dashOffset": null,
-  "fill": true,
+  "fill": "crimson",
   "fillColor": "rgb(26,152,80)",
   "fillOpacity": 0.6,
   "fillRule": "evenodd",
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 8.0,
+  "radius": 89.44271909999159,
   "stroke": true,
   "weight": 3
 }
                 )
-                .addTo(map_70553cc008b540f9acae60a2ad6a5787);
+                .addTo(map_a449be36327d4c429cb45d875f862a07);
             
     
-        circle_f6130527e4ee48fc8105533736576914.bindTooltip(
+        circle_11756b2d08c846639c5f0685e4f94f5f.bindTooltip(
             `<div>`
             + `<li><bold>Bairro : Codevasf<li><bold>Casos : 4` + `</div>`,
             {"sticky": true}
@@ -1368,29 +1368,29 @@
         
     
 
-            var circle_b5e0b6a83e8c44529014787141a51913 = L.circle(
+            var circle_884cfd2f6cec46fb89ec3ad34d64dd0a = L.circle(
                 [-9.5954312, -40.4191698],
                 {
   "bubblingMouseEvents": true,
   "color": "rgb(26,152,80)",
   "dashArray": null,
   "dashOffset": null,
-  "fill": true,
+  "fill": "crimson",
   "fillColor": "rgb(26,152,80)",
   "fillOpacity": 0.6,
   "fillRule": "evenodd",
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 8.0,
+  "radius": 89.44271909999159,
   "stroke": true,
   "weight": 3
 }
                 )
-                .addTo(map_70553cc008b540f9acae60a2ad6a5787);
+                .addTo(map_a449be36327d4c429cb45d875f862a07);
             
     
-        circle_b5e0b6a83e8c44529014787141a51913.bindTooltip(
+        circle_884cfd2f6cec46fb89ec3ad34d64dd0a.bindTooltip(
             `<div>`
             + `<li><bold>Bairro : Carnaiba do Sertao<li><bold>Casos : 4` + `</div>`,
             {"sticky": true}
@@ -1398,29 +1398,29 @@
         
     
 
-            var circle_355cbaf51ec54070a03ce3600864ede8 = L.circle(
+            var circle_5249947bb8ee453fa7be3a54c2c5da53 = L.circle(
                 [-9.42292, -40.520734000000004],
                 {
   "bubblingMouseEvents": true,
   "color": "rgb(26,152,80)",
   "dashArray": null,
   "dashOffset": null,
-  "fill": true,
+  "fill": "crimson",
   "fillColor": "rgb(26,152,80)",
   "fillOpacity": 0.6,
   "fillRule": "evenodd",
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 8.0,
+  "radius": 89.44271909999159,
   "stroke": true,
   "weight": 3
 }
                 )
-                .addTo(map_70553cc008b540f9acae60a2ad6a5787);
+                .addTo(map_a449be36327d4c429cb45d875f862a07);
             
     
-        circle_355cbaf51ec54070a03ce3600864ede8.bindTooltip(
+        circle_5249947bb8ee453fa7be3a54c2c5da53.bindTooltip(
             `<div>`
             + `<li><bold>Bairro : Expedito Nascimento<li><bold>Casos : 4` + `</div>`,
             {"sticky": true}
