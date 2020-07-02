@@ -1,5 +1,17 @@
 <!DOCTYPE html>
-<head>    
+<html>
+
+<head>
+    <title>Edwildson</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
+    <link rel="stylesheet" href="assets/css/Article-Clean.css">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
+    <link rel="stylesheet" href="assets/css/Projects-Horizontal.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
     <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
@@ -50,7 +62,22 @@
         -->
         </style>
 </head>
-<body>    
+<body>
+    <div>
+        <nav class="navbar navbar-light navbar-expand-md navigation-clean">
+            <div class="container"><a class="navbar-brand" href="#">Edwildson Coelho Rodrigues</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse"
+                    id="navcol-1">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item" role="presentation"><a class="nav-link active" href="https://edwildson.github.io/">Home</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="https://edwildson.github.io/blog.html">Blog</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="#">About</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="#">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>    
     <div><h1>Mapeamento por bairros - Covid-19 - Juazeiro/BA e Petrolina/PE</h1>
     <h4>Por <a  href="https://www.fb.com/edwildson">Edwildson Coelho Rodrigues</a> e Tiago Tito</h4></div>
     <div class="folium-map" id="map_5a2c3e19af1b4e94bc3e47197cc914af" ></div><div id="postit">
@@ -166,7 +193,23 @@
 				}
 				document.onmousedown=initializedrag
 				document.onmouseup=new Function("dragapproved=false")
-				</script> 
+                </script> 
+                <div class="footer-basic">
+                    <footer>
+                        
+                        <ul
+                            class="list-inline">
+                            <li class="list-inline-item"><a>Home</a></li>
+                            <li class="list-inline-item"><a href="#">Blog</a></li>
+                            <li class="list-inline-item"><a href="#">About</a></li>
+                            <li class="list-inline-item"><a href="#">Contato</a></li>
+                            <li class="list-inline-item"></li>
+                            </ul>
+                            <p class="copyright">Edwildson C. Rodrigues 2020</p>
+                    </footer>
+                </div>
+                <script src="assets/js/jquery.min.js"></script>
+                <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
 <script>    
     
